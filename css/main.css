@@ -1,6 +1,11 @@
 @font-face{
     font-family: 'PoppinsMedium';
-    src: url('../')
+    src: url('../fonts/Poppins-Medium.otf')
+}
+
+@font-face{
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf')
 }
 
 :root {
@@ -17,12 +22,17 @@
 }
 
 html, body {
+    font-family: 'PoppinsRegular', 'Ribik', sans-serif;
     background-color: var(--color-background);
+    color: var(--color-text);
+}
+b{
+    font-family: 'PoppinsMedium', 'Ribik', sans-serif;
 }
 
 .nav-link {
     color: var(--color-black);
     padding-left: 35px!important;
-    padding-rigth: 35px!important;
+    padding-right: 35px!important;
         
 }
