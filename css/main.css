@@ -629,3 +629,13 @@ footer {
   color: var(--color-primary);
   font-size: 24px;
 }
+
+.form-control {
+  background-color: var(--color-white);
+  color: var(--color-black)!important;
+  border-radius: 20px;
+  padding: 15px 25px;
+  font-size: 20px;
+  box-shadow: opx 10px 15px -3px rgba(0, 0, 0, 1)!important;
+  border: none!important;
+}
