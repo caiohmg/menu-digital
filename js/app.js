@@ -92,4 +92,3 @@ cardapio.templates = {
     </div>
   `,
 };
-
